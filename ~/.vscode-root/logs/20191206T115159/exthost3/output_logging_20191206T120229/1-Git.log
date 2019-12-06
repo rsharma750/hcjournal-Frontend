@@ -1,0 +1,41 @@
+Looking for git in: git
+Using git 2.24.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/algoscale/Documents/bi-frontend
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/destination/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :browserslist
+> git check-ignore -v -z --stdin
+> git show :src/app/app.module.ts
+> git check-ignore -v -z --stdin
+> git show :src/app/Angular Material/material.module.ts
+> git show :src/app/app.module.ts
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/Components/login/login.component.ts
+> git show :src/app/Components/login/login.component.scss
+> git show :src/app/Components/login/login.component.html
+> git show :src/app/Components/login/login.component.scss
+> git show :src/app/Components/login/login.component.html
+> git show :src/app/Components/login/login.component.scss
+> git show :src/app/Components/login/login.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/destination/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/app.module.ts
+> git check-ignore -v -z --stdin
+> git show :src/app/Components/logged-in/logged-in.module.ts
